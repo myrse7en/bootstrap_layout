@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  background-color: steelblue;
 }
 
 .extra-margin {
@@ -30,4 +31,32 @@ button {
   width: 75%;
   display: block;
   margin: 15px;
+}
+
+.descriptive-text {
+  text-align: center;
+  padding: 10%;
+}
+
+figure {
+  margin: 25px auto;
+}
+
+figure img {
+  display: block;
+  margin: 15px auto;
+}
+
+figure figcaption {
+  text-align: center;
+}
+
+footer {
+  margin-top: 100px;
+  background-color: black;
+}
+
+.footer-text {
+  color: rgba(255, 255, 255, 0.8);
+  padding:25px;
 }
