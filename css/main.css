@@ -57,6 +57,16 @@ footer {
 }
 
 .footer-text {
-  color: rgba(255, 255, 255, 0.8);
-  padding:25px;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 25px;
+}
+
+/* Sticky Image did not work. The whole row must be assigned property. renamed to about image.  */
+.about-img {
+  /* position: sticky;
+  top: 0; */
+  max-width: 350px;
+  max-height: 150px;
+  display: block;
+  margin: 25px auto;
 }
